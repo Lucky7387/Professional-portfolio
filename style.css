@@ -1,8 +1,77 @@
-img{
-    height: 150px;
-    width: 150px;
-    border-radius: 80px;
-    background-position: left;
-    background-size: cover;
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#header{
+    border: 1px solid black;
+    background-color: grey;
+    height: 66px;
+    width: 157px;
+    display: flex;
+    flex-direction:column;
+}
+#header #studImg{
+    width:20%;
+    height: inherit;
+}
+#header #studDetail{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+}
+#header #studDetail #studName{
+
+}
+#header #studDetail #menu{
+
+}
+#header #studDetail #menu #menulist{
+    text-align: right;
+    display:flex;
+    flex-direction:column;
+}
+#header #studDetail #menu #menulist li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+#header #studDetail #menu #menulist li a{
+    text-decoration: none;
+}
+#header #studImg img{
+    height: inherit;
+    border-radius: 50%;
+}
+#ProjectSection li{
+    display: inline;
+    margin: 10px;
+}
+
+#main{
+    border: 1px solid black;
+    background-color: white;
+    height: 517px;
+    width: 969px;
+    overflow-x: scroll;
+}
+#main div{
+    height: 100%;
+    padding: 5px;
+    background-image: url(l.jpg);
     background-repeat: no-repeat;
-    }
+    background-size: cover;
+    /* border: 1px solid grey; */
+    text-align: center;
+    /* margin: 5px; */
+   
+    /* background-color: cadetblue; */
+}
+#footer{
+    border: 1px solid black;
+    background-color: grey;
+    height: 23px;
+}
